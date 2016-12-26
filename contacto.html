@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html ng-app="miapp">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<title>CONTACTO</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/secciones.css">
+	<script src="https://use.fontawesome.com/502b7294a9.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+	<link rel="stylesheet" href="css/redes.css">
+	<link rel="stylesheet" href="css/tabla.css">
+	<link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/formulario.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/star.js"></script>
+</head>
+
+<body  ng-controller="conapp">
+<div class="red">
+	<div id="facebook"><a href="https://www.facebook.com/IIGEO.UMSA/?fref=ts" target="none" class="fa fa-facebook"></a></div>
+	<div id="youtube"><a href="https://www.youtube.com/channel/UCiGqssRsBA-pC3dgZLnlW5w" target="none"  class="fa fa-youtube-play"></a></div>
+	<div id="twitter"><a href="https://twitter.com/geoboliviaide"  target="none"  class="fa fa-twitter"></a></div>
+	<div id="correo"><a href="iigeo.umsa@gmail.com" target="none"  class="fa fa-envelope"></a></div>
+</div>
+<header>
+<!-- aquí comienza nuestro menu -->
+	<div class="ancho">
+		<div class="logo">
+			<p><a href="index.html">TrafVi</a></p>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="proyecto.html">Proyecto</a></li>
+				<li><a href="descargar.html">Descargar App</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<br>
+<br>
+<br>
+<br>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1352.2468192965114!2d-68.06820321822589!3d-16.539643219520002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x737da742a3cd0b3f!2sIngenier%C3%ADa+Geogr%C3%A1fica+UMSA!5e0!3m2!1ses!2ses!4v1482774425229" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<section class="wap">
+	<section class="bienvenidos"> 
+		<h2>Contáctanos</h2>
+		<h3>Desarrollado por el Lic. Jose Luis Soza en conjunto con el IIGEO como Proyecto de Grado, usted puede ponerse en contacto con nosotros para poder realizarnos alguna consulta o sugerencia, hagalo en el formulario que sigue a continuacion.</h3>
+	</section>
+	<section class="dos-columnas">
+		<div class="formulario">
+			<h4 class="formu-ti">Formulario de Contacto</h4>
+			<form>
+				<input type="text" ng-model="newPost.nombre" placeholder="Nombre" class="caja-1">
+				<input type="email" ng-model="newPost.email"  placeholder="E-mail" class="caja-1" required>
+				<input type="tel" ng-model="newPost.telefono" placeholder="Teléfono" class="caja-1" required>
+				<input type="text" ng-model="newPost.asunto" placeholder="Asunto" class="caja-1">
+				<textarea  ng-model="newPost.comentario" id=""  placeholder="Comentarios" class="caja-2"></textarea>
+				<button ng-click="addPost()" class="contratar-a correr">Enviar</button>
+			</form>
+		</div>
+
+		<div class="datos">
+			<ul class="datos-contacto">
+				<li><i class="fa fa-map-marker" aria-hidden="true"></i></li> 
+				<li><h4>Dirección:</h4>Z. Cota Cota, calle 27,Carrera de Geografia, 2do. piso</li>
+				<li><i class="fa fa-mobile" aria-hidden="true"></i></li>
+				<li><h4>Teléfono:</h4>2 2612821</li>
+				<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+				<li><h4>E-mail Desarrollador</h4>jsozasantos@gmail.com</li>
+			</ul>
+		</div>
+		<div class="datos">
+			<ul class="datos-contacto">
+				<li><i class="fa fa-twitter" aria-hidden="true"></i></li> 
+				<li><h4>Twitter:</h4>@IIGEO_UMSA</li>
+				<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+				<li><h4>Facebook:</h4>@IIGEO.UMSA</li>
+				<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+				<li><h4>Instagram:</h4>@IIGEO_UMSA</li>
+			</ul>
+		</div>
+		
+		
+	</section>
+
+</section>
+
+<section class="limpia"></section>
+<footer>
+	<div><a  id="foo" href="http://iigeo.umsa.bo/" target="none">IIGEO |</a><a id="foo" href="http://www.umsa.bo/web/guest" target="none"> UMSA</a></div>
+</footer>
+
+</body>
+
+</html>
+
+
+
+
+	

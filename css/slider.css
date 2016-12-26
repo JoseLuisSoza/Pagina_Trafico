@@ -1,0 +1,61 @@
+#particles-js{
+	background: url(../imagenes/lp3.jpg);
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+	width: 100%;
+	
+}
+.imagen{
+	height: auto;
+	width: 100%;
+	padding-bottom: 50px;
+	
+}
+
+.ancho-letras{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+.letras-slider{
+	width: 80%;
+	margin: auto;
+}
+.letras-slider h1{
+	color: #fff;
+	font-family: rale;
+	font-size: 70px;
+}
+.letras-slider p{
+	color: #fff;
+	font-size: 20px;
+	font-family: rale;
+	padding-top: 50px;
+}
+
+.ancho-letras1{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+.letras-slider1{
+	width: 80%;
+	margin: auto;
+}
+.letras-slider1 h1{
+	color: #85c34a;
+	font-family: rale;
+	font-size: 70px;
+}
+.letras-slider1 p{
+	color: #85c34a;
+	font-size: 20px;
+	font-family: rale;
+	padding-top: 50px;
+	font-weight: bold;
+}
